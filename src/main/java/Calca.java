@@ -11,4 +11,28 @@ public class Calca extends Vestimenta
         this.cor = cor;
         this.tipoDeCalca = tipoDeCalca;
     }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public String getTipoDeCalca() {
+        return tipoDeCalca;
+    }
+
+    public void setTipoDeCalca(String tipoDeCalca) {
+        this.tipoDeCalca = tipoDeCalca;
+    }
+
+    public String getTamanho() {
+        return tamanho;
+    }
+
+    public void setTamanho(char tamanho) {
+        this.tamanho = tamanho;
+    }
 }

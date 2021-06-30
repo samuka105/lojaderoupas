@@ -8,4 +8,11 @@ public class Colar extends Acessorio
         PrataOuMicanga = prataOuMicanga;
     }
 
+    public boolean isPrataOuMicanga() {
+        return PrataOuMicanga;
+    }
+
+    public void setPrataOuMicanga(boolean prataOuMicanga) {
+        PrataOuMicanga = prataOuMicanga;
+    }
 }

@@ -8,4 +8,11 @@ public class Pulseira extends Acessorio
         PrataOuOuro = prataOuOuro;
     }
 
+    public boolean isPrataOuOuro() {
+        return PrataOuOuro;
+    }
+
+    public void setPrataOuOuro(boolean prataOuOuro) {
+        PrataOuOuro = prataOuOuro;
+    }
 }

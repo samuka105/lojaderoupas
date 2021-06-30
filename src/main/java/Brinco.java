@@ -7,4 +7,12 @@ public class Brinco extends Acessorio
         super(etiqueta, preco, material);
         this.comPerolas = comPerolas;
     }
+
+    public boolean isComPerolas() {
+        return comPerolas;
+    }
+
+    public void setComPerolas(boolean comPerolas) {
+        this.comPerolas = comPerolas;
+    }
 }
