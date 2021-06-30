@@ -5,6 +5,8 @@ public class Principal
     public static void main(String[] args)
     {
 
+        //SAMUEL PAIVA BERNARDES // 201765568AC
+
         ArrayList<Vestimenta> vestimentas = new ArrayList<Vestimenta>(); //Aloca um Array de Vestimentas
 
         Estoque e = new Estoque(); //Aloca um estoque
